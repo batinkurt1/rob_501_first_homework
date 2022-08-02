@@ -1,0 +1,5 @@
+distance: 0.1
+delta: 0.01
+max_linear_velocity: 2.0
+max_angular_velocity: 2.0
+waypoints: [[4,1], [7,1], [7.93, 3.85], [5.825, 5.38], [3.4, 3.62], [4,1]]

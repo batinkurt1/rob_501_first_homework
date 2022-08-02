@@ -1,0 +1,17 @@
+<launch>
+  <rosparam command="load" file="$(find ros_hw)/params/params.yaml" />
+  
+  
+  <group ns="turtlesim1">
+    <node pkg="turtlesim" name="myturtle" type="turtlesim_node"/>
+  </group>
+
+  <node name="controller" pkg="ros_hw" type="controller.py" 
+   />
+  
+  <node name="navigation" pkg="ros_hw" type="navigation.py" 
+   />
+  
+
+</launch>
+
